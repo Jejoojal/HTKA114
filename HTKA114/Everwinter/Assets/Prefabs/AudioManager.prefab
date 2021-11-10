@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1126784962856032}
+  m_IsPrefabParent: 1
+--- !u!1 &1126784962856032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4708386228260094}
+  - component: {fileID: 114623918416061570}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4708386228260094
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1126784962856032}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 74.009254, y: 4.126543, z: -8.022542}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114623918416061570
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1126784962856032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9cd5963c1b799743adb2c3b4251b98c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aanet:
+  - nimi: Taustamusiikki
+    clip: {fileID: 8300000, guid: 0bb33b40155eb9c4aafd5b8adf1dce9d, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - nimi: Ambienssi
+    clip: {fileID: 8300000, guid: 9faccdd932db7fa42a20db126a16dfa1, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - nimi: Osuma
+    clip: {fileID: 8300000, guid: 71ce8200d77f3424ebc55e0ec64995b0, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - nimi: Poiminta
+    clip: {fileID: 8300000, guid: 78b028c271e6dc34eab9c3b3e154f636, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - nimi: Heilautus
+    clip: {fileID: 8300000, guid: 3eea538cd55e7f4469d564496a73dc4f, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - nimi: Kuusi
+    clip: {fileID: 8300000, guid: 4f41e7d82bb57f54691391ceb69c6684, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - nimi: Ammus
+    clip: {fileID: 8300000, guid: 82cbd5575638b4c418619ad4635ad405, type: 3}
+    volume: 0.35
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - nimi: TyhjaLipas
+    clip: {fileID: 8300000, guid: 8c74a67f087ca5f47b3e49061cc72818, type: 3}
+    volume: 0.45
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - nimi: VihuunOsuu
+    clip: {fileID: 8300000, guid: 6a98faa2bab6195428c98c1b2deb2dbf, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - nimi: VihunKuolema
+    clip: {fileID: 8300000, guid: b923373ffe26134499f00952a9783977, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - nimi: PelaajanKuolema
+    clip: {fileID: 8300000, guid: ba98a8033201e4241b43a8458c37703f, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - nimi: Hengastyminen
+    clip: {fileID: 8300000, guid: 3fa63f83b8a1ec940ba0578fd141e986, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
